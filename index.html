@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<h1>Test task for Playtech Live Android team</h1>
+<h2>~2 hours</h2>
+<table>
+    <tr>
+ <td style="vertical-align: top; width: 500px">
+    <ul>
+    <li>Please create single screen application.
+    <li>Screen should contain list of items and button "Update"
+    <li>Each item should be one of types: 'male', 'female' and 'child'
+    <li>Every items have attribute 'type', 'name' and 'color_bg'
+    <li>Item of 'male' type has also attributes 'car' and 'childrenCount'
+    <li>Item of 'female' type has also attribute 'children'(list)
+    <li>Item of 'child' type has also attributes 'father' and 'mother'
+    <li>Every items should has solid background which is filled by color from 'color_bg'
+    <li>'Male' item:
+        <ul>
+        <li>should contain blue line in left side
+        <li>'car' should be located at the center of cell, with big font size and bold stye
+        <li>'name' is located at top right corner</li>
+        <li>'childrenCount' is located at bottom right corner</li>
+        </ul>
+    <li>'Child' item:
+        <ul>
+        <li>should contain yellow line at top
+        <li>'mother' is located at top right corner</li>
+        <li>'father' is located at top left corner</li>
+        <li>'name' should be located at the center bottom cell
+        </ul>
+     <li>'Female' items:
+        <ul>
+        <li>should contain red line at right
+        <li>Text field in the center of cell which contains list of children with every even child has white font
+        <li>In the end of children list should append 'name' with bold style
+        </ul>
+     <li>then user press 'Update' button, multichoosing dialog will be shown
+     <li>There are 3 checkbox items at this dialog: Male, Female and Child
+     <li>After closing dialog list should be updated
+     <li>Update data should be downloaded every time with json-format
+     <li>endpoint is located <a href="api?types=male|female|child">here</a>
+     <li>Request is HTTP Get request with syntax <u>/api?types=male|female|child</u>
+     <li>If you want to get items with only 'child' type, you should use <u>/api?types=female</u>
+     <li>If you have any question which is not clarified with this requirements, please make your own decision.
+
+     <li>After application would be created, please pack sources to zip archive and send it to mail: <a href="mailto:mali@ciklum.com">mali@ciklum.com</a>
+</td>
+<td>
+    <img src="img/screen.png">
+  </td>
+</tr></table>
+
+</p>
+</body>
+</html>
